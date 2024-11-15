@@ -48,21 +48,26 @@ Microservices are used across a wide range of industries and applications due to
 
 ### Microservices VS Monolith architectures
 1. Structure
+
 In microservices approach, an application is divided into small, independent services, each focusing on a specific functionality.
 Whereas in monolith, an application is a single, unified codebase where all components are tightly coupled.
 
 2. Scalability
+
 In microservices, individual services can scale independently based on demand, making it more resource-efficient. Whereas using a monolith approach,
 an entire application must scale as a whole, even if only a part of it experiences high demand.
 
 3. Deploment
+
 Microservices: services are deployed independently, enabling continuous deployment and rapid updates. Monolith: the entire application must
 be redeployed for any change, increasing downtime and risk.
 
 4. Fault isolation
+
 Microservices: Failures in one service are isolated and don't affect the entire application.
 Monolith: A failure in one component can potentially crash the entire application.
 
 5. Technology stack
+
 Microservices: Teams can use different technology stacks for different services, providing flexibility. Monolith: Entire application is built
 using a single technology stack, simplifying development but limiting options.
